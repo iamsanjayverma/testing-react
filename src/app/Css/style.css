@@ -1,0 +1,7 @@
+.admin-store-view table {background-color: #fff;}
+.admin-store-view tr {display: flex;flex-wrap: wrap;justify-content: space-between;}
+.admin-store-view tr 
+th:nth-last-child(1) ,th:nth-last-child(2) , td:nth-last-child(1) ,td:nth-last-child(2)
+{width: 50%;max-width: 50%;text-align: center;}
+
+
