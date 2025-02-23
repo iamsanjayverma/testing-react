@@ -76,7 +76,7 @@ const index = () => {
                 <div className="row justify-content-center align-items-center h-100">
                     <div className="col-lg-4 col-sm-6">
                         <form onSubmit={handleSubmit} className="border p-4 rounded bg-light shadow">
-                            <h2 className="text-center">Login</h2>
+                            <h2 className="text-center">Login Page</h2>
                             {success && <div className="alert alert-success" role="alert">{success}</div>}
                             {error && <div className="alert alert-danger" role="alert">{error}</div>}
                             <div className="mb-3">
