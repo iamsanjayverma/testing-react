@@ -9,9 +9,9 @@ function Index() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!userData) {
-      navigate('/login'); // Redirect to login if not authenticated
-    }
+    // if (!userData) {
+    //   navigate('/login'); // Redirect to login if not authenticated
+    // }
   }, [userData, navigate]);
 
   if (!userData) {

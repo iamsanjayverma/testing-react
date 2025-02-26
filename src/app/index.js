@@ -14,9 +14,9 @@ import EditProduct from './product/Edit'
 function ProtectedRoute({ children }) {
   const userData = useContext(UserContext);
 
-  if (!userData) {
-    return <Navigate to="/login" />; // Redirect to login if user is not authenticated
-  }
+  // if (!userData) {
+  //   return <Navigate to="/login" />; // Redirect to login if user is not authenticated
+  // }
 
   return children;
 }
